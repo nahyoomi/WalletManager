@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#0d1c9e;
+    font-family: 'Alegreya', serif; 
+}
+.main-container {
+    border: 5px solid #ede6db;
+    width: 60%;
+    margin: 0 auto;
+}
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px; 
+  width: 100%; 
+}
+.tittle-box{
+    color: #ede6db;
+    width: 80%;
+    font-size: 30px;
+}
+.budget-box{
+    background-color: #84df59;
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.budget-box-value{
+    padding: 10px 0px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+}
+.budget-box-button{
+    padding: 10px 10px 10px 0px;
+    font-weight: bolder;
+    width: 30%;
+}
+.datail-container{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+}
+.form-box{
+    width: 45%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 15px;
+}
+.subtitle{
+   text-align: center;
+   color: #0d1c9e;
+}
+.procedure-box{
+    width: 55%;
+    margin-left: 10px;
+}
+.list-form-box{
+    list-style: none;
+    color: #0d1c9e;
+}
+.each-list-form-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.each-list-form-box input, select{
+    border-radius: 10px;
+    height: 30px;
+    border:none;
+    background-color: #dddada;
+    padding: 5px;
+}
+.button-list-form-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.button-list-form-box button{
+    width: 80px;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    color: #ede6db;
+    background-color: #0d1c9e;
+}
+.procedure-box{
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.file-cards{
+    display: flex;
+    padding-top: 20px 0 20px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.each-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dddada;
+    border-radius: 12px;
+    width: 170px;
+    height: 170px;
+    margin: 8px;
+}
+.each-card h3{
+    color: #0d1c9e;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: none;
+}
+.each-card p{
+    margin-top: 10px;
+    color: #0d1c9e;
+    font-size: 100px;
+}
+
+@media (max-width:1200px) {
+    .detail-container{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin-right: 10px;
+    }
+}
